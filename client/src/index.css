@@ -1,0 +1,92 @@
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.spinner-border {
+  height: 50px;
+  width: 50px;
+}
+
+/*register page*/
+
+.register-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #94bfab;
+}
+
+.register-page form {
+  width: 400px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.register-page form .d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.register-page form .d-flex a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register-page .ant-form-item {
+  margin-bottom: 20px;
+}
+
+.register-page .ant-form-item-label {
+  font-weight: bold;
+}
+
+.register-page .ant-form-item-explain {
+  color: #ff4d4f;
+}
+
+.register-page .ant-form-item-has-error .ant-input {
+  border-color: #ff4d4f;
+}
+
+.register-page .ant-form-item-has-error .ant-input:focus {
+  box-shadow: 0 0 0 2px rgba(255, 77, 79, 0.2);
+}
+
+.register-page .btn {
+  width: 100%;
+  background-color: rgba(48, 107, 78, 0.6);
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+}
+
+.link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #94bfab;
+  transition: 0.5s;
+}
+
+.link:hover{
+  text-decoration: underline 1px solid black;
+}
+
+Input{
+  border: 1px solid #94bfab;  
+}
+
